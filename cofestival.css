@@ -1,0 +1,75 @@
+.top-bar {
+  color: #D8D8D8;
+  background-color: #D8D8D8;
+}
+
+.top-bar .name h1 a {
+  color: black;
+  font-size: 24px;
+}
+
+.top-bar-section ul li {
+  background-color: #D8D8D8;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: white;
+  color: black;
+}
+
+hr#menu-line {
+  margin:0;
+  color: #D8D8D8;
+  border-width: 1px;
+}
+
+div#logo {
+  padding-top: 1px;
+}
+
+div#subtitle {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+hr.tighter {
+  margin-top: 1.00rem;
+  margin-bottom: 1.00rem;
+  padding-bottom: -10px;
+}
+
+.medium-4 h4 {
+  color: #FF3300;
+}
+
+a {
+  color: #FF3300;
+}
+
+.panel {
+  background-color: #FFE4C4;
+}
+
+div#inside-par {
+  position: relative;
+  margin-top: 50px;
+}
+
+ul {
+  margin-right:1.1rem;
+}
+
+a.anchor {
+  color: black;
+}
+
+a.anchor:hover {
+  cursor: default;
+}
+
+.column, .columns {
+  padding-left: 0;
+  padding-right: 0;
+
+}
