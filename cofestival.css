@@ -1,6 +1,7 @@
 .top-bar {
   color: #D8D8D8;
-  background-color: #D8D8D8;
+  /*background-color: #D8D8D8;*/
+  background-color: gray;
 }
 
 .top-bar .name h1 a {
@@ -13,8 +14,8 @@
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
-  background-color: white;
-  color: black;
+  background-color: gray;
+  color: white;
 }
 
 hr#menu-line {
