@@ -66,6 +66,10 @@ ul {
   margin-right:1.1rem;
 }
 
+li {
+  margin-bottom:0.5rem;
+}
+
 a.anchor {
   color: black;
 }
