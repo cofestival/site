@@ -78,6 +78,9 @@ a.anchor:hover {
   cursor: default;
 }
 
+a:hover, a:focus {
+  color: #000080;
+}
 .column, .columns {
   padding-left: 0;
   padding-right: 0;
