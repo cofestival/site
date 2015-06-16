@@ -48,7 +48,13 @@ a {
 }
 
 .panel {
-  background-color: #FFE4C4;
+  /*background-color: #FFE4C4;*/
+  background-color: #000080;
+  color: #FFF;
+}
+
+.panel h2, .panel h3 {
+  color: #FFF;
 }
 
 div#inside-par {
