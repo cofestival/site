@@ -6,19 +6,40 @@
 <link rel="stylesheet" type="text/css" href="../foundation.min.css"/>
 <link rel="stylesheet" type="text/css" href="../cofestival.css"/>
 <script src="../js/modernizr.js"></script>
+<!--/debut-js-scrolling -->
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/localscroll/jquery.localscroll.js"></script>
+<script type="text/javascript" src="../js/localscroll/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="../js/lancement.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $(window).scroll(function() {
+      $(document).scrollTop() > $(window).height() ? $('.back_top').addClass("back-top-visible") : $('.back_top').removeClass("back-top-visible");
+    });
+  })
+
+  $(document).ready(function(){
+    $("#bouton_nav").click(function( e ){
+      e.preventDefault();
+      $("nav").toggle();
+    });
+  });
+</script>
+<!--/fin-js-scrolling -->
+
 </head>
 <body>
   <div class="row">
   <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-     
+
     <h1><a href="#">CoFestival</a></h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
-  <section class="top-bar-section">
-   
+  <section class="top-bar-section" id="back_to_menu">
+
   <ul class="right">
     <li><a href="#appel">Call for participation</a></li>
     <li><a href="#programme">Programme</a></li>
@@ -38,17 +59,25 @@
   </div>
   </header>
   <br/>
+  
+  <!--/debut-.bouton_back_top -->
+  <div class="back_top">
+   <a id="bouton_back_top" href="#back_to_menu">
+     <img src="../img/bouton_back_top_black.png" alt="bouton retour top">
+   </a>
+  </div>
+  <!--/fin-.bouton_back_top -->
 
   <div class="row">
     <div class="large-12 column" id="subtitle">
       <h3>An inclusive festival about discovering and broadening accessibility of scientific and technological know-how</h3>
     </div>
   </div>
-  
-  <div class="row">  
+
+  <div class="row">
   <hr class="tighter">
   <div>
-    <h4>Open & Collaborative</h4> 
+    <h4>Open & Collaborative</h4>
     <p>There is no cost for participants apart from providing their time, curiosity and open-mindedness.</p>
   </div>
   <div>
@@ -159,7 +188,7 @@
       <li>All ages are welcome.</li>
       <li>The language of each session will be indicated in advance on the program.</li>
     </ul>
-  </p>  
+  </p>
 </div>
 
 

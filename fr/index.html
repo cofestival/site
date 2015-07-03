@@ -6,19 +6,40 @@
 <link rel="stylesheet" type="text/css" href="../foundation.min.css"/>
 <link rel="stylesheet" type="text/css" href="../cofestival.css"/>
 <script src="../js/modernizr.js"></script>
+<!--/debut-js-scrolling -->
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/localscroll/jquery.localscroll.js"></script>
+<script type="text/javascript" src="../js/localscroll/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="../js/lancement.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $(window).scroll(function() {
+      $(document).scrollTop() > $(window).height() ? $('.back_top').addClass("back-top-visible") : $('.back_top').removeClass("back-top-visible");
+    });
+  })
+
+  $(document).ready(function(){
+    $("#bouton_nav").click(function( e ){
+      e.preventDefault();
+      $("nav").toggle();
+    });
+  });
+</script>
+<!--/fin-js-scrolling -->
+
 </head>
 <body>
   <div class="row">
   <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-     
+
     <h1><a href="#">CoFestival</a></h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
-  <section class="top-bar-section">
-   
+  <section class="top-bar-section" id="back_to_menu">
+
   <ul class="right">
     <li><a href="#appel">Appel à participation</a></li>
     <li><a href="#programme">Programme</a></li>
@@ -38,16 +59,24 @@
   </div>
   </header>
   <br/>
+  
+  <!--/debut-.bouton_back_top -->
+  <div class="back_top">
+   <a id="bouton_back_top" href="#back_to_menu">
+     <img src="../img/bouton_back_top_black.png" alt="bouton retour top">
+   </a>
+  </div>
+  <!--/fin-.bouton_back_top -->
 
   <div class="row">
     <div class="large-12 column" id="subtitle">
       <h3>Le festival inclusif pour (déc)ouvrir les savoir-faire scientifiques et technologiques</h3>
     </div>
   </div>
-  
-  <div class="row">  
+
+  <div class="row">
   <hr class="tighter">
-    <div>  
+    <div>
     <h4>Collaboratif & Ouvert</h4>
     <p>pas d'autre coût pour les participant&middot;e&middot;s que celui d'apporter leur temps, leur curiosité et leur ouverture d'esprit.</p>
   </div>
@@ -82,7 +111,7 @@
     <p> parce que, vécus de l'intérieur, les domaines scientifiques et technologiques peuvent être également excluants et fermés, nous voulons animer un <b>espace d'échange et de réflexion</b> autour des expériences et des stratégies <b>pour faire évoluer ces milieux</b>.
     Nous savons que les savoir-faire scientifiques et technologiques tellement valorisés aujourd'hui sont un moyen pour discriminer et créer un rapport de force entre d'un côté celles et ceux qui les maîtrisent et de l'autre côté les autres. Nous voulons percer la muraille qui permet à cette inégalité d'exister.</p>
     <p>En  multipliant les formats d'intervention sur un mode festif (ateliers techniques et ludiques, non-conférences, débats, représentations artistiques, conférences gesticulées), <b>nous désirons créer du mouvement et faire phosphorer les cerveaux dans la bonne humeur !</b></p>
-    
+
     <p>Dans cette perspective, nous avons à coeur de faire du CoFestival un évènement accessible et accueillant pour toutes et tous, en accord avec les principes de notre <a href="#coc">code de conduite</a> que nous vous invitons à lire.</p>
   </div>
 </div>
@@ -129,14 +158,14 @@
   <p>
   <ul>
     <li>Demandez un accord pour <b>toute captation</b> (audio, photo, vidéo) à toute personne présente dans le champ de votre appareil (oui, cela inclut les Google Glass et autres trucs-machins). Ceci s'applique également à tout matériel ou élément fortement reconnaissable d'une personne (ordinateur, tatouage, …). Seules les personnes qui  acceptent d'être enregistrées (audio, photo, vidéo) auront une gommette  distinctive, les autres n'ont pas donné leur accord pour cela et ne  doivent pas apparaître dans vos captations. En cas d’enregistrement d’une conférence, une annonce sera faite. </li>
-    <li>Le CoFestival est ouvert à tou⋅te⋅s, <b>même après sa fermeture</b>. Nous aimerions que les enregistrements faits pendant l'évènement soient diffusés <b>sous licence CC-SA</b> (ou autre licence autorisant le partage).</li> 
+    <li>Le CoFestival est ouvert à tou⋅te⋅s, <b>même après sa fermeture</b>. Nous aimerions que les enregistrements faits pendant l'évènement soient diffusés <b>sous licence CC-SA</b> (ou autre licence autorisant le partage).</li>
     <li><b>Soyez bienveillant&middot;e&middot;s et inclusif&middot;ve&middot;s</b> : les discriminations sont les seules à être exclues du CoFestival.</li>
     <li>En cas de conflit ou de problème : <b>dialoguons</b>. Des membres identifié&middot;e&middot;s de l’organisation du CoFestival et joignables par téléphone seront là pour vous écouter et réagir en cas de problème.</li>
   </ul>
   </p>
   <h4><a class="anchor" name="coc-intervention">A l’intention des intervenant&middot;e&middot;s</a></h4>
   <p>Vous êtes le corps même du CoFestival, et donc l'énergie porteuse d’une ambiance accueillante et inclusive dans chacun des ateliers, conférences et autres activités durant le festival !</p>
-  <p>Voici quelques points d’attention à bien garder en tête pour que votre intervention corresponde à l'esprit du CoFestival : 
+  <p>Voici quelques points d’attention à bien garder en tête pour que votre intervention corresponde à l'esprit du CoFestival :
   <ul>
     <li><b>N'oubliez pas d'expliquer tous les termes techniques que vous employez</b>. Pas de bon point pour celles et ceux qui restent dans un jargon excluant.</li>
     <li><b>Bannissez les propos discriminants</b> durant votre présentation (par exemple, des blagues reproduisant des stéréotypes offensifs ou au dépend d’un groupe de personnes) : qu’ils et elles soient visibles ou pas, des personnes pouvant se sentir ciblées sont sans doute en face de vous (handicap, maladie mentale, orientation sexuelle, genre, classe sociale…). </li>
@@ -160,7 +189,7 @@
       <li>Tout le monde est le et la bienvenue, quel que soit son âge.</li>
       <li>Les langues des interventions seront indiquées en avance sur le programme.</li>
     </ul>
-  </p>  
+  </p>
 </div>
 
 
