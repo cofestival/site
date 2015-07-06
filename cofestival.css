@@ -4,7 +4,7 @@
 }
 
 .top-bar .name h1 a {
-  color: D8D8D8;
+  color: #D8D8D8;
 }
 
 .top-bar-section ul li {
@@ -19,7 +19,7 @@
 .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #FF3300;
     opacity: 0.7;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
