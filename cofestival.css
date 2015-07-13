@@ -131,6 +131,8 @@ a:hover, a:focus {
 /**************** MAP ***********************/
 .map {
   padding: 0.5em;
+  width: 75%;
+  display: inline-block;
 }
 
 .osm {
@@ -181,7 +183,6 @@ a:hover, a:focus {
   border-bottom: 1px solid #D2D2D2;
 }
 .transport p {
-  /*line-height: 24px;*/
   margin: 0;
 }
 .transport img {
