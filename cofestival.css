@@ -171,7 +171,7 @@ a:hover, a:focus {
     background-color: #B00000;
     color:white;
     width:100px;
-    height:87px;
+    height:66px;
     border: 1px solid #B00000;
 }
 
@@ -180,12 +180,7 @@ a:hover, a:focus {
     border: 1px solid #B00000;
 }
 
-.bighalltext h5{
-    color:#B00000;
-    font-weight: bold;
-}
-
-.bighalltext .speaker{
+.bighalltext h8{
     color:#B00000;
     font-weight: bold;
 }
@@ -194,7 +189,7 @@ a:hover, a:focus {
     background-color: #A0A0A0 ;
     color:white;
     width:100px;
-    height:87px;
+    height:66px;
     border: 1px solid #A0A0A0;
 }
 
@@ -203,21 +198,17 @@ a:hover, a:focus {
     border: 1px solid #A0A0A0;
 }
 
-.groundfloortext h5{
+.groundfloortext h8{
     color:#A0A0A0 ;
     font-weight: bold;
 }
 
-.groundfloortext .speaker{
-    color:#A0A0A0 ;
-    font-weight: bold;
-}
 
 .kitchen{
     background-color: #FF6633;
     color:white;
     width:100px;
-    height:87px;
+    height:66px;
     border: 1px solid #FF6633;
 }
 
@@ -226,23 +217,17 @@ a:hover, a:focus {
     border: 1px solid #FF6633;
 }
 
-.kitchentext h5{
+.kitchentext h8{
     color:#FF6633;
     font-weight: bold;
 }
-
-.kitchentext .speaker{
-    color:#FF6633;
-    font-weight: bold;
-}
-
 
 
 .bighall2{
     background-color: #7D0552;
     color:white;
     width:100px;
-    height:87px;
+    height:66px;
     border: 1px solid #7D0552;
 }
 
@@ -251,12 +236,7 @@ a:hover, a:focus {
     border: 1px solid #7D0552;
 }
 
-.bighalltext2 h5{
-    color:#7D0552;
-    font-weight: bold;
-}
-
-.bighalltext2 .speaker{
+.bighalltext2 h8{
     color:#7D0552;
     font-weight: bold;
 }
