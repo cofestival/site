@@ -137,7 +137,7 @@ a:hover, a:focus {
     line-height: 50px;
     width:50px;
     height:50px;
-    background-color: #0000FF;
+    background-color: #000080;
     color:white;
     text-align: center;
     margin-left: auto;
@@ -149,7 +149,7 @@ a:hover, a:focus {
     line-height: 50px;
     width:50px;
     height:50px;
-    background-color: #41A317;
+    background-color: #F30000;
     color:white;
     text-align: center;
     margin-left: auto;
@@ -168,76 +168,76 @@ a:hover, a:focus {
 }
 
 .bighall{
-    background-color: #B00000;
+    background-color: #000080;
     color:white;
     width:100px;
     height:66px;
-    border: 1px solid #B00000;
+    border: 1px solid #000080;
 }
 
 .bighalltext{
     text-align: center;
-    border: 1px solid #B00000;
+    border: 1px solid #000080;
 }
 
 .bighalltext h8{
-    color:#B00000;
+    color:#000080;
     font-weight: bold;
 }
 
 .groundfloor{
-    background-color: #A0A0A0 ;
+    background-color: #FF0033;
     color:white;
     width:100px;
     height:66px;
-    border: 1px solid #A0A0A0;
+    border: 1px solid #FF0033;
 }
 
 .groundfloortext{
     text-align: center;
-    border: 1px solid #A0A0A0;
+    border: 1px solid #FF0033;
 }
 
 .groundfloortext h8{
-    color:#A0A0A0 ;
+    color: #FF0033;
     font-weight: bold;
 }
 
 
 .kitchen{
-    background-color: #FF6633;
+    background-color: #FF0033;
     color:white;
     width:100px;
     height:66px;
-    border: 1px solid #FF6633;
+    border: 1px solid #FF0033;
 }
 
 .kitchentext{
     text-align: center;
-    border: 1px solid #FF6633;
+    border: 1px solid #FF0033;
 }
 
 .kitchentext h8{
-    color:#FF6633;
+    color:#FF0033;
     font-weight: bold;
 }
 
 
 .bighall2{
-    background-color: #7D0552;
+    background-color: #000080;
     color:white;
     width:100px;
     height:66px;
-    border: 1px solid #7D0552;
+    border: 1px solid #000080;
 }
 
 .bighalltext2{
     text-align: center;
-    border: 1px solid #7D0552;
+    border: 1px solid #000080;
 }
 
 .bighalltext2 h8{
-    color:#7D0552;
+    color:#000080;
     font-weight: bold;
 }
 
