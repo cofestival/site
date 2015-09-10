@@ -168,6 +168,25 @@ a:hover, a:focus {
 }
 
 .bighall{
+    background-color: #F30;
+    color:white;
+    width:100px;
+    height:66px;
+    border: 1px solid #F30;
+}
+
+.bighalltext{
+    text-align: left;
+    border: 1px solid #F30;
+    padding: 10px;
+}
+
+.bighalltext h8{
+    color:#F30;
+    font-weight: bold;
+}
+
+.groundfloor{
     background-color: #000080;
     color:white;
     width:100px;
@@ -175,50 +194,34 @@ a:hover, a:focus {
     border: 1px solid #000080;
 }
 
-.bighalltext{
-    text-align: center;
-    border: 1px solid #000080;
-}
-
-.bighalltext h8{
-    color:#000080;
-    font-weight: bold;
-}
-
-.groundfloor{
-    background-color: #FF0033;
-    color:white;
-    width:100px;
-    height:66px;
-    border: 1px solid #FF0033;
-}
-
 .groundfloortext{
-    text-align: center;
-    border: 1px solid #FF0033;
+    text-align: left;
+    border: 1px solid #000080;
+    padding: 10px;
 }
 
 .groundfloortext h8{
-    color: #FF0033;
+    color: #000080;
     font-weight: bold;
 }
 
 
 .kitchen{
-    background-color: #FF0033;
+    background-color: #000080;
     color:white;
     width:100px;
     height:66px;
-    border: 1px solid #FF0033;
+    border: 1px solid #000080;
 }
 
 .kitchentext{
-    text-align: center;
-    border: 1px solid #FF0033;
+    text-align: left;
+    border: 1px solid #000080;
+    padding: 10px;
 }
 
 .kitchentext h8{
-    color:#FF0033;
+    color:#000080;
     font-weight: bold;
 }
 
@@ -232,8 +235,9 @@ a:hover, a:focus {
 }
 
 .bighalltext2{
-    text-align: center;
+    text-align: left;
     border: 1px solid #000080;
+    padding: 10px;
 }
 
 .bighalltext2 h8{
