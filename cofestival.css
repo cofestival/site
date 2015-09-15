@@ -53,6 +53,10 @@ hr#menu-line {
   border-width: 1px;
 }
 
+.small {
+  font-size: 0.75rem;
+}
+
 div#logo {
   padding-top: 1px;
 }
